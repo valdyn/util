@@ -11,7 +11,7 @@ fatVal = 9.3
 carbs = (kcal - (fats * fatVal + proteins * proteinVal)) / carbVal :: Double
 proteins = 100 :: Double
 -- fats = kcal * 0.33 / 9.3 :: Double
-fats = kcal * 0.30 / 9.3 :: Double
+fats = kcal * 0.25 / 9.3 :: Double
 
 s = [("Energy:   %7.1fkcal", kcal),
      ("Fat:      %7.1fg"   , fats),
