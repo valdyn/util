@@ -4,6 +4,8 @@ food
 dividends
 dist
 cabal-dev
+retire
+conti
 *.o
 *.hi
 *.chi
