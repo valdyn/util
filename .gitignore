@@ -6,6 +6,7 @@ dist
 cabal-dev
 retire
 conti
+a.out
 *.o
 *.hi
 *.chi
