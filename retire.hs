@@ -41,7 +41,7 @@ output [p] = printf "Savings per year: %.2f€\n" saving ++
                         save saving 4 = save saving 3     + 57900.00
 --                        save saving y = save saving (y-1) + sum [ saving * inflation^(x-1) | x <- [1..y]]
                         save saving y = save saving (y-1) +  saving * inflation^y 
-                        past = [164083.98,210403.55,255523.58,323154.0,400000.0]
+                        past = [164083.98,210403.55,255523.58,323154.0,450000.0]
 
                         saving = 12*(read :: String -> Double) p 
 
